@@ -1,0 +1,78 @@
+div.app {
+    font-size: 30px;
+    background: linear-gradient(155deg, #48c98d, #48c9c9, #A569BD);
+    width: 16em;
+    height: 24em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+div.app div.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    padding: 1em;
+    gap: .3em;
+}
+
+div.app div.main div.main__image {
+    position: relative;
+    width: 100%;
+    height: 5em;
+}
+
+div.app div.main div.main__image img {
+    width: 7em;
+    position: absolute;
+    transform: translateX(calc(7em - 50%)) translateY(-1em);
+}
+
+div.app div.main div.main__temperature {
+    font-size: 2.5em;
+}
+
+div.app div.main div.main__city {
+    font-size: 1.5em;
+}
+
+
+div.app div.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+div.app div.footer div.footer__humidity,
+div.app div.footer div.footer__wind-speed {
+    display: flex;
+    align-items: center;
+    gap: .2em;
+}
+
+div.app div.footer div.footer__humidity span,
+div.app div.footer div.footer__wind-speed span {
+    display: block;
+}
+
+div.app div.footer div.footer__humidity span:first-child,
+div.app div.footer div.footer__wind-speed span:first-child {
+    font-size: 1em;
+}
+
+div.app div.footer div.footer__humidity span:last-child,
+div.app div.footer div.footer__wind-speed span:last-child {
+    font-size: .7em;
+}
+
+div.app div.footer div.footer__humidity img,
+div.app div.footer div.footer__wind-speed img {
+    display: block;
+    width: 2em;
+    height: 2em;
+    background-color: #fff;
+}
