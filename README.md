@@ -1,1 +1,1 @@
-This is my WeatherCard app
+Работает с VPN
